@@ -1,0 +1,45 @@
+
+* {
+    font-family: helvetica;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+button {
+    height: 50px;
+    border: solid 2px black;
+    background: red;
+    width: 300px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#dog {
+    height: 500px;
+    float: right;
+    padding: 20px;
+    background: green;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+#kitty {
+    float: left;
+    height: 500px;
+    padding: 20px;
+    width: 50%;
+    background: blue;
+    box-sizing: border-box;
+}
+
+img {
+    height: 356px;
+    max-width: 100%;
+}
+
+main {
+    width: 900px;
+    margin: auto;
+}
